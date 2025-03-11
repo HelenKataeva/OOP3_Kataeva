@@ -3,16 +3,16 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Group group21 = new Group(1, 100);
-        Group group12 = new Group(2, 300);
-        Group group32 = new Group(3, 400);
-        Group group45 = new Group(4, 200);
+        Group group101 = new Group(1, 100);
+        Group group102 = new Group(2, 200);
+        Group group103 = new Group(3, 300);
+        Group group104 = new Group(4, 400);
 
         List<Group> educationalGroups = new ArrayList<>();
-        educationalGroups.add(group21);
-        educationalGroups.add(group12);
-        educationalGroups.add(group32);
-        educationalGroups.add(group45);
+        educationalGroups.add(group101);
+        educationalGroups.add(group102);
+        educationalGroups.add(group103);
+        educationalGroups.add(group104);
 
         Stream stream = new Stream(educationalGroups);
         StreamIterator iterator = new StreamIterator(stream);
